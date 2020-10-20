@@ -1,0 +1,16 @@
+<schema attributeFormDefault='unqualified' elementFormDefault='qualified' xmlns='http://www.w3.org/2001/XMLSchema'>
+	<import schemaLocation='http://xbrl.fasb.org/us-gaap/2011/entire/us-gaap-entryPoint-all-2011-01-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/dei/2011/dei-ent-all-2011-01-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/invest/2011/invest-ent-all-2011-01-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/country/2011/country-ent-all-2011-01-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/currency/2011/currency-ent-all-2011-01-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/exch/2011/exch-ent-all-2011-01-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/naics/2011/naics-ent-all-2011-01-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/sic/2011/sic-ent-all-2011-01-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/stpr/2011/stpr-ent-all-2011-01-31.xsd'/>
+	<import schemaLocation='http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd'/>
+	<import schemaLocation='http://www.xbrl.org/lrr/role/net-2009-12-16.xsd'/>
+	<import schemaLocation='http://www.xbrl.org/lrr/arcrole/factExplanatory-2009-12-16.xsd'/>
+</schema>
+
+

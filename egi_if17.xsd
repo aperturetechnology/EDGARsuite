@@ -1,0 +1,5 @@
+<schema attributeFormDefault='unqualified' elementFormDefault='qualified' xmlns='http://www.w3.org/2001/XMLSchema' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xbrli='http://www.xbrl.org/2003/instance' xmlns:xlink='http://www.w3.org/1999/xlink'>
+	<import schemaLocation='http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs/full_ifrs-cor_2017-03-09.xsd' namespace='http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs-full'/>
+	<import schemaLocation='http://xbrl.fasb.org/us-gaap/2017/elts/us-gaap-2017-01-31.xsd' namespace='http://fasb.org/us-gaap/2017-01-31'/>
+	<import schemaLocation='http://xbrl.sec.gov/dei/2014/dei-2014-01-31.xsd' namespace='http://xbrl.sec.gov/dei/2014-01-31'/>
+</schema>

@@ -1,0 +1,103 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>EDGARsuite™ - Network Administrator's Reference</title>
+<meta name="Microsoft Theme" content="aci0 1011">
+<style>
+<!--
+html         { font-family: Verdana; font-size: 8pt }
+span.aci-code { font-family: Courier New }
+-->
+</style>
+</head>
+
+<body>
+
+<h1 style="text-align: center">EDGARsuite<span style="font-size:6pt; vertical-align:top">™</span> - Network Administrator's
+Reference</h1>
+<h2>Setting up EDGARsuite<span style="font-size:6pt; vertical-align:top">™</span> for network operation</h2>
+<ol>
+	<li>
+	<p style="margin-top: 0pt; margin-bottom: 4pt">Run the EDGARsuite™ installer
+	on the file server from the server console (do not do this remotely).</p></li>
+	<li>
+	<p style="margin-top: 0pt; margin-bottom: 4pt">Create a folder named
+	<span class="aci-code">ES.SYS</span> within the folder where EDGARsuite™ is
+installed (typically, <span class="aci-code">C:\Aci Programs\EDGsuite</span>).</p>
+	</li>
+	<li>
+	<p style="margin-top: 0pt; margin-bottom: 0pt">Assign each EDGARsuite™ user a unique User ID (up to 8 letters and/or
+numbers). For each user, create a folder within the EDGARsuite folder, named
+	<span class="aci-code">x.USR</span> (where x is the User ID). To remove a user
+permanently, remove the corresponding <span class="aci-code">x.USR</span>
+folder. A user may be added at any time, but removed only when he/she is not
+using the software.</p></li>
+</ol>
+<h2>Setting up Client computers</h2>
+<p>To set up EDGARsuite™ on a client computer, run the file <span class="aci-code">
+EdgIns.exe</span> located in the folder where EDGARsuite™
+is installed. This file must be run on each client computer from its original location on the server. Do
+not copy the file to the client computer. Beyond this, the installation process
+is automatic. It creates a folder named <span class="aci-code">EDGARsuite</span>
+on the client's desktop and in the <span class="aci-code">Start Menu</span> with
+links to software and resources on the server.</p>
+<h2>User Management</h2>
+<p>To identify users who are using EDGARsuite™, look at the contents of the
+<span class="aci-code"> ES.SYS</span> folder. Each active User ID using the
+program is shown there by a file bearing the name of the user ID, with
+<span class="aci-code">.ON</span> extension. The date and time of this file
+indicates when that copy of EDGARsuite™ was started.<br>
+<br>
+EDGARsuite™ adds a <span class="aci-code"><i>UserID</i>.ON</span> file to the
+<span class="aci-code">ES.SYS</span> folder when a user starts the
+program, and deletes it on exit. However, if the program terminates abnormally,
+the <span class="aci-code"><i>UserID</i>.ON</span> file may remain there, and
+must be deleted manually. When doing so, first ensure that the user is not using
+the program. Never delete a <span class="aci-code"><i>UserID</i>.ON</span> file
+while a user is using the program.</p>
+<h2>Security and Advanced Options</h2>
+<p>For added network security, you may write-protect the folder where EDGARsuite™
+is installed (typically, <span class="aci-code">C:\Aci Programs\EDGsuite</span>).
+The <span class="aci-code">ES.SYS</span> folder must, however, support read+write access. If you
+wish, you may assign individual users access only to their own specific
+<span class="aci-code"><i>UserID</i>.USR</span> folders to keep them from using
+other users' accounts.<br>
+<br>
+For advanced networking options, you may create a text file called
+<span class="aci-code">ES.NET</span> in the folder where EDGARsuite™ is
+installed, into which you may place one
+or more of the following commands:</p>
+<p><span class="aci-code">SYS=<i>SysDirectory</i><br>
+USR=<i>UsrDirectory</i><br>
+CUST=<i>Yes/No</i><br>
+DRIVES=<i>Yes/No</i></span></p>
+<p>where:</p>
+<p style="text-indent: -10pt; margin-left: 10pt"><i>SysDirectory</i> represents
+the complete path name of the folder which should replace the
+<span class="aci-code">ES.SYS</span> folder. If this entry
+is not specified, <span class="aci-code">ES.SYS</span> as
+described above is used.</p>
+<p style="text-indent: -10pt; margin-left: 10pt"><i>UsrDirectory</i> represents
+the complete path name template of the directories to replace the
+<span class="aci-code"><i>UserID</i>.USR</span> folders. In this
+template, an asterisk (*) may be used as a place holder for the User ID. If this
+entry is not specified, the <span class="aci-code"><i>UserID</i>.USR</span>
+folders as described above are used.</p>
+<p style="text-indent: -10pt; margin-left: 10pt"><i>CUST=</i> specifies whether
+or not users should be allowed access to EDGARwiz's Advanced Customization
+options. If this entry is not specified, <i>Yes</i> is assumed. This entry does
+not apply to the other EDGARsuite™ components.</p>
+<p style="text-indent: -10pt; margin-left: 10pt"><i>DRIVES=</i> specifies
+whether or not network drives should show up in users' file navigation dialog
+boxes. If this entry is not specified, <i>Yes</i> is assumed.</p>
+<p>The above entries may be entered in upper, lower or mixed case. There should
+be no spaces within an entry, not even before or after the '=' symbol.</p>
+<hr align="left" width="40%" style="height: 1px">
+<p><font color="#999999">EDGARsuite™, EDGARinLine™, EDGARword™, EDGARwiz™ , EDGARstar™, EDGARxbrl™, EDGARxml™, and EDGARpack™ are trademarks of Advanced
+Computer Innovations, Inc.</font></p>
+
+</body>
+
+</html>

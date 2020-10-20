@@ -1,0 +1,28 @@
+{
+ifio * sec
+tbl_swidest+
+pgbk_tbl- opacity-
+lst+> suppr+ lst-> suppr- gn_lst+> "" gn_lst-> ""
+toa+> suppr+ toa-> suppr- gn_toa+> "" gn_toa-> ""
+ntv_lm+ ntv_rm+
+hdrtop 0t hdrtop> ""
+hdrbot 360t hdrbot> ""
+bdytop 720t bdytop> ""
+bdybot 720t bdybot> ""
+ftrtop 360t ftrtop> ""
+ftrbot 0t ftrbot> ""
+final_pos+
+
+ifio * edg
+cv_grp-
+ftnfmt_t "[{ftn#}]"
+ftnfmt_n "[{ftn#}]"
+ennstyle 1
+ennfmt_t "<{enn#}>"
+ennfmt_n "<{enn#}>"
+ex_ftntag- ex_enntag-
+ftntag+> suppr+ ftntag-> suppr- ftntag> ""
+enntag+> suppr+ enntag-> suppr- enntag> ""
+
+ifio * *
+}

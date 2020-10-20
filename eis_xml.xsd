@@ -1,0 +1,21 @@
+<!-- R9D6U40W -->
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:simpleType name="SUBMISSION_TYPE">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[XML]"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="LIVE_OR_TEST">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="LIVE|TEST"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="edgarSubmission">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="testOrLive" type="LIVE_OR_TEST" minOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

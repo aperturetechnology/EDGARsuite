@@ -1,0 +1,9 @@
+<schema attributeFormDefault='unqualified' elementFormDefault='qualified' xmlns='http://www.w3.org/2001/XMLSchema'>
+	<import schemaLocation='http://xbrl.sec.gov/rocr/2015/ratings-all-2015-03-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/rocr/2015/ratings-ent-std-2015-03-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/rocr/2015/ratings-ent-all-2015-03-31.xsd'/>
+	<import schemaLocation='http://xbrl.sec.gov/rocr/2015/ratings-lab-2015-03-31.xml'/>
+	<import schemaLocation='http://xbrl.sec.gov/rocr/2015/ratings-doc-2015-03-31.xml'/>
+	<import schemaLocation='http://xbrl.sec.gov/rocr/2015/ratings-pre-2015-03-31.xml'/>
+	<import schemaLocation='http://xbrl.sec.gov/rocr/2015/ratings-ref-2015-03-31.xml'/>
+</schema>

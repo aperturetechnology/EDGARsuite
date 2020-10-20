@@ -1,0 +1,13 @@
+{
+nifio * inscr
+lmar_ofs 0t rmar_ofs 0t
+exc_fill *
+
+ifio * sec
+hdtotoc- toc+> suppr+ toc-> suppr- gn_toc+> "" gn_toc-> ""
+index+> suppr+ index-> suppr- gn_ix+> "" gn_ix-> ""
+
+ifio * edg
+
+ifio * *
+}

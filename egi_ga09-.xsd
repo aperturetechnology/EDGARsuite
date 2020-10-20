@@ -1,0 +1,4 @@
+<schema attributeFormDefault='unqualified' elementFormDefault='qualified' xmlns='http://www.w3.org/2001/XMLSchema'>
+	<import schemaLocation='http://taxonomies.xbrl.us/us-gaap/2009/entire/us-gaap-entryPoint-all-2009-01-31.xsd'/>
+	<import schemaLocation='http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-ent-std-2009-01-31.xsd'/>
+</schema>

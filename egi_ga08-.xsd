@@ -1,0 +1,5 @@
+<schema attributeFormDefault='unqualified' elementFormDefault='qualified' xmlns='http://www.w3.org/2001/XMLSchema'>
+  <import schemaLocation='http://xbrl.us/us-gaap/1.0/test/us-gaap-entryPoint-all-2008-03-31.xsd' namespace='http://xbrl.us/us-gaap-entryPoint-all/2008-03-31'/>
+  <import schemaLocation='http://xbrl.us/us-gaap/1.0/test/dei-entryPoint-all-2008-03-31.xsd' namespace='http://xbrl.us/dei-entryPoint-all/2008-03-31'/>
+  <import schemaLocation='http://xbrl.us/us-gaap/1.0/non-gaap/dei-ent-2008-03-31.xsd' namespace='http://xbrl.us/dei-ent/2008-03-31'/>
+</schema>
